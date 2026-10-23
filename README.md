@@ -6,16 +6,16 @@ in the folder with the chip.c There should be a code.s file with assembly code
 compile chip.c (gcc chip.c -o chip) and run (./chip)
 
 # code
-ram - swap register and RAM cell
-mov - move num/register value to register
-add - adder
-sub - subtraction
-cmp - examination
-jeq - jump if equal
-jlo - jump if low
-jhi - jump if high
+1) ram - swap register and RAM cell
+2) mov - move num/register value to register
+3) add - adder
+4) sub - subtraction
+5) cmp - examination
+6) jeq - jump if equal
+7) jlo - jump if low
+8) jhi - jump if high
 =========================================
-registers r0-rF, x00-xFF
-numbers - hex, xNNNNNN...
-ram x00-xFF
-code x000-xFFF
+1) registers r0-rF, x00-xFF
+2) numbers - hex, xNNNNNN...
+3) ram x00-xFF
+4) code x000-xFFF
