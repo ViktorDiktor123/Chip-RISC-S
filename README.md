@@ -14,7 +14,7 @@ compile chip.c (gcc chip.c -o chip) and run (./chip)
 6) jeq - jump if equal
 7) jlo - jump if low
 8) jhi - jump if high
-#=========================================
+# =========================================
 1) registers r0-rF, x00-xFF
 2) numbers - hex, xNNNNNN...
 3) ram x00-xFF
