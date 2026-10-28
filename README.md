@@ -19,3 +19,10 @@ compile chip.c (gcc chip.c -o chip) and run (./chip)
 2) numbers - hex, xNNNNNN...
 3) ram x00-xFF
 4) code x000-xFFF
+
+# RAM hardware
+1) xFC - Joystick button
+2) xFD - Joystick X
+3) xFE - Joystick Y
+4) xFA - display out
+5) xFF - stop
