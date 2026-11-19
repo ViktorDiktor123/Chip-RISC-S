@@ -10,7 +10,9 @@ uint16_t parse_hex_16(char str[]) {
 
 uint8_t parse_reg(const char *str) {
     if (str[0] == 'r' || str[0] == 'R') {
-        return str[1] - '0';
+        if (str[1] >= '0' && str[1] <= '9') return str[1] - '0';
+        if (str[1] >= 'A' && str[1] <= 'F') return str[1] - 'A' + 10;
+        if (str[1] >= 'a' && str[1] <= 'f') return str[1] - 'a' + 10;
     }
     return 0;
 }
